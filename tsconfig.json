@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es6"],
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "rootDir": "./src",
+      "preserveConstEnums": true,
+      "downlevelIteration": true,
+      "outDir": "dist",
+      "resolveJsonModule": true,
+  },
+  "exclude": [
+      "node_modules",
+      "bin"
+  ]
+}
